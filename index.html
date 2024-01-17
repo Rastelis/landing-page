@@ -5,31 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="assets/styles/styles.css">
 </head>
 <body>
     <header>
         <div class="wraper_logo-group">
-            <img src="images/icons/Logo.svg" alt="logo">
+            <img src="assets/images/icons/Logo.svg" alt="logo">
             <div>mangcoding Store</div>
         </div>
         <nav>
             <ul>
-                <li><a class="nvigation_selected-font" href="#">Home</a></li>
+                <li><a class="nvigation_selected--font" href="#">Home</a></li>
                 <li><a href="#">Course</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Article</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
+            <div class="wraper_account-controls">
+                <button class="control--white">Log in</button>
+                <button>Register</button>
+            </div>
         </nav>
-        <div class="wraper_account-controls">
-            <button>Log in</button>
-            <button>Register</button>
-        </div>
     </header>
-    <div class="block_introduction">
-
-    </div>
+    <section class="block_introduction">
+        <div class="container_right">
+            <div class="introduction_right--text-upper">Let's <strong>Begins</strong></div>
+            <h1>Let's Find The Right <span>Course</span> For you</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim, sem non convallis molestie.</p>
+            <div class="wraper_introduction-controls">
+                <button>Register</button>
+                <a href="#" class="wraper_play-video"><img src="assets/images/icons/Play.svg" alt="Play icon">Play Video</a>
+            </div>
+        </div>
+        <div><img src="assets/images/cotent/stylised-image-1.png" alt="woman with a laptop stylised"></div>
+    </section>
 </body>
 
 </html>
