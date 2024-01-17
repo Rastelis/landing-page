@@ -7,6 +7,7 @@
 :root {
     --block-sides-padding: 150px;
     --color-primary: #545be8;
+    --color-secondary: #F0C932;
     --color-title-text: #141E32;
     --color-nav-text: #101928;
 }
@@ -132,16 +133,16 @@ button {
     background-color: #F5F5F5;
 }
 
-.home_wraper--left {
+.wraper_home-text {
     width: 560px;
 }
 
-.home_left--text-upper {
+.home_text-top {
     color: var(--color-primary);
     font-size: 18px;
 }
 
-.home_wraper--left h1 {
+.wraper_home-text h1 {
     color: var(--color-title-text);
     font-size: 64px;
     font-weight: 700;
@@ -149,7 +150,7 @@ button {
 
 }
 
-.home_wraper--left h1 span {
+.wraper_home-text h1 span {
     color: var(--color-primary);
 }
 
@@ -173,22 +174,22 @@ button {
     padding-right: 0;
 }
 
-.wraper_carousel--group {
+.wraper_carousel-group {
     display: flex;
     width: 100%;
     gap: 24px;
 }
 
-.wraper_carousel--text {
+.wraper_carousel-text {
     max-width: 364px;
     padding-bottom: 32px;
 }
 
-.carousel_text--upper {
+.carousel_text-top {
     color: var(--color-primary);
 }
 
-.wraper_carousel--text h2 {
+.wraper_carousel-text h2 {
     margin: 16px 0;
     font-size: 42px;
     font-weight: 700;
@@ -201,7 +202,7 @@ button {
     overflow: hidden;
 }
 
-.wraper_carousel--viewport {
+.wraper_carousel-viewport {
     position: absolute;
     width: 100%;
     top: 31px;
@@ -242,4 +243,45 @@ button {
     background: linear-gradient(180deg, #545BE8 0%, #272DB0 100%);
     padding-top: 33px;
     padding-bottom: 33px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wraper_about-us-text {
+    width: 457px;
+}
+
+.about-us_text-top {
+    color: var(--color-secondary);
+    
+}
+
+.wraper_about-us-text h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 16px 0;
+}
+
+.wraper_about-us-text p {
+    color: #ddd;
+    font-size: 18px;
+}
+
+.wraper_statistics-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.wraper_statistics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wraper_statistics div {
+    color: var(--color-secondary);
+    font-weight: 700;
+    font-size: 24px;
 }
